@@ -1,0 +1,213 @@
+*{
+  padding:0;
+  margin:0;
+  border:0
+}
+.main__body {
+  font-family: Acrom;
+  background: url(../img/header__bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+}
+.nav{
+  overflow-x: inherit;
+}
+.container {
+    max-width: 1240px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.navbar{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+ul li {
+    list-style: none;
+}
+li>a{
+  list-style: none;
+  color: white;
+  text-decoration: none;
+}
+.menu {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+.section__indexHero {
+    padding-top: 207px;
+    color: #fff;
+    position: relative;
+}
+.section__indexHero .hero__img {
+    position: absolute;
+    bottom: 0;
+    right: 50px;
+    z-index: -1;
+}
+.hero__item {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 1 50%;
+    flex: 0 1 50%;
+}
+.hero__item-text {
+    font-size: 26px;
+    font-weight: 200;
+}
+.hero__item-buttons {
+    padding: 50px 0 300px 0;
+    display: flex;
+    gap: 50px;
+    transition: all 2s ease-in-out;
+  }
+  .btn {
+      display: flex;
+      width: 180px;
+      /* height: 60px; */
+      border-radius: 30px;
+      padding: 25px;
+      color: #fff;
+      align-items: center;
+      transition: all .3s ease;
+      justify-content: center;
+  }
+  .hero__item-buttons-hwp {
+      background: -o-linear-gradient(333.15deg,#fb411d 18.07%,#ff9a0d 83.92%);
+      background: linear-gradient(116.85deg,#fb411d 18.07%,#ff9a0d 83.92%);
+      box-shadow: 0 4px 80px rgb(240 115 24 / 60%);
+      transition: all 1s ease;
+      font-size: 14px;
+      gap: 8px;
+  }
+  a, a:visited {
+    text-decoration: none;
+  }
+  .hero__item-button-promo {
+      background: -o-linear-gradient(342.02deg,#0432d5 14.26%,#2c86f0 76.36%);
+      background: linear-gradient(107.98deg,#0432d5 14.26%,#2c86f0 76.36%);
+      box-shadow: 0 4px 80px rgb(48 101 213 / 70%);
+      transition: all 1s ease;
+      font-size: 14px;
+      gap: 8px;
+  }
+  footer {
+    background: #121419;
+  }
+  .footer {
+    padding-top: 61px;
+    color: #fff;
+  }
+  .footer__item {
+    display: flex;
+  }
+  .footer__item-leftblock {
+    display: flex;
+    flex-direction: column;
+  }
+  .footer__item-social {
+    align-items: center;
+    display: flex;
+    opacity: .8;
+    gap: 40px;
+  }
+  .footer__item-copyright {
+      padding-top: 30px;
+      opacity: .8;
+  }
+  .footer__item-copyright-info {
+      font-style: normal;
+      font-weight: 500;
+      line-height: 12px;
+      font-size: 10px;
+      color: rgba(255,255,255,.8);
+  }
+  .footer__item-copyright-email {
+      font-style: normal;
+      font-weight: 500;
+      line-height: 12px;
+      font-size: 10px;
+      padding-top: 10px;
+      padding-bottom: 50px;
+      color: rgba(255,255,255,.8);
+  }
+  .footer__item-copyright-email a {
+      color: rgba(255,255,255,.8);
+  }
+  .footer__item-logo {
+      text-align: center;
+      align-items: center;
+      margin: 0 auto;
+  }
+  .footer__item-rightblock {
+      display: flex;
+      flex-direction: column;
+  }
+  .footer__item-payment {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      padding-top: 5px;
+      padding-bottom: 25px;
+      gap: 40px;
+  }
+  .footer__item-files {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+  }
+  .files__button {
+      color: rgba(255,255,255,.8);
+      opacity: .8;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 10px;
+      line-height: 12px;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+      -webkit-box-pack: right;
+      -ms-flex-pack: right;
+      justify-content: right;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+  }
+  .footer__item-payment img {
+      opacity: .8;
+      width: 65px;
+      min-height: 22px;
+  }
+
+  img {
+      vertical-align: top;
+  }
+  .hero__item-title {
+      max-width: 715px;
+      font-size: 34px;
+      font-weight: 500;
+  }
+  .files__button:last-child {
+      padding-top: 10px;
+  }
+  .active a::after {
+      content: "";
+      position: absolute;
+      display: block;
+      width: 3.7%;
+      padding-top: 10px;
+      border-bottom: 2px solid #571231;
+  }
